@@ -1,0 +1,43 @@
+{
+  "model_name": "RandomForestRegressor",
+  "saved_at": "2026-10-07T14:32:30.675484",
+  "search_method": "RandomizedSearchCV",
+  "best_params": {
+    "n_estimators": 472,
+    "max_depth": 11
+  },
+  "cv_mean": 0.8213214948693928,
+  "cv_std": 0.0648843267805992,
+  "test_r2": 0.8878139565971755,
+  "baseline_config": {
+    "n_estimators": 100,
+    "max_depth": null
+  },
+  "tuned_config": {
+    "params": {
+      "max_depth": 11,
+      "n_estimators": 472
+    },
+    "search_method": "RandomizedSearchCV"
+  },
+  "tuning_comparison": {
+    "train_mean": {
+      "base": 0.9736781487775229,
+      "tuned": 0.9709256489684275
+    },
+    "val_mean": {
+      "base": 0.8190106975986836,
+      "tuned": 0.8213214948693928
+    },
+    "val_std": {
+      "base": 0.07036957021229155,
+      "tuned": 0.0648843267805992
+    },
+    "gap": {
+      "base": 0.1546674511788393,
+      "tuned": 0.14960415409903471
+    }
+  },
+  "cv_r2_diff": 0.002310797270709153,
+  "test_minus_cv": 0.06649246172778278
+}
