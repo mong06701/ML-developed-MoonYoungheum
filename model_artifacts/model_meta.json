@@ -1,43 +1,43 @@
 {
   "model_name": "RandomForestRegressor",
-  "saved_at": "2026-10-07T14:32:30.675484",
-  "search_method": "RandomizedSearchCV",
+  "saved_at": "2026-10-07T14:43:21.728323",
+  "search_method": "Optuna",
   "best_params": {
-    "n_estimators": 472,
-    "max_depth": 11
+    "n_estimators": 175,
+    "max_depth": 12
   },
-  "cv_mean": 0.8213214948693928,
-  "cv_std": 0.0648843267805992,
-  "test_r2": 0.8878139565971755,
+  "cv_mean": 0.8212542415716282,
+  "cv_std": 0.06428073023916543,
+  "test_r2": 0.8910932915341476,
   "baseline_config": {
     "n_estimators": 100,
     "max_depth": null
   },
   "tuned_config": {
     "params": {
-      "max_depth": 11,
-      "n_estimators": 472
+      "n_estimators": 175,
+      "max_depth": 12
     },
-    "search_method": "RandomizedSearchCV"
+    "search_method": "Optuna"
   },
   "tuning_comparison": {
     "train_mean": {
       "base": 0.9736781487775229,
-      "tuned": 0.9709256489684275
+      "tuned": 0.9726922785657429
     },
     "val_mean": {
       "base": 0.8190106975986836,
-      "tuned": 0.8213214948693928
+      "tuned": 0.8212542415716282
     },
     "val_std": {
       "base": 0.07036957021229155,
-      "tuned": 0.0648843267805992
+      "tuned": 0.06428073023916543
     },
     "gap": {
       "base": 0.1546674511788393,
-      "tuned": 0.14960415409903471
+      "tuned": 0.15143803699411473
     }
   },
-  "cv_r2_diff": 0.002310797270709153,
-  "test_minus_cv": 0.06649246172778278
+  "cv_r2_diff": 0.0022435439729445728,
+  "test_minus_cv": 0.06983904996251944
 }
