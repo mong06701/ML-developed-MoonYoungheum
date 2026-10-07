@@ -1,6 +1,6 @@
 {
   "model_name": "RandomForestRegressor",
-  "saved_at": "2026-10-07T14:43:21.728323",
+  "saved_at": "2026-10-07T16:25:27.637065",
   "search_method": "Optuna",
   "best_params": {
     "n_estimators": 175,
